@@ -1,0 +1,51 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main
+{
+    height:80vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.discription
+{
+    width:100vw;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    flex-direction:column;
+    margin-left:5px;
+}
+.main .listofcommontopic ul
+{ margin-top:5vh;
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:45px;
+    margin-bottom:5vh;
+   
+}
+.listofcommontopic ul li{
+    list-style-type :none;
+}
+.listofcommontopic ul li a{
+    text-decoration :none;
+    color:gray;
+
+}
+a:hover{
+    transform:scale(1.025);
+}

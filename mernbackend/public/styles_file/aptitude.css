@@ -1,0 +1,45 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.listofcommontopic
+{
+    height:80vh;
+    width:100vw;
+  
+}
+.listofcommontopic ul
+{ margin-top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:50px;
+}
+.listofcommontopic ul li
+{
+    list-style-type:none;
+    width:100px;
+    
+}
+.discription
+{
+    height:30vh;width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+    padding:25px;
+}
+a{
+    text-decoration:none;
+    color:gray;
+}
+align:hover
+{
+    transform:scale(1.025);
+    cursor:pointer;
+}

@@ -1,0 +1,19 @@
+.box
+{
+    width:80vw;
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.content
+{
+    width:60vw;
+    height:60vh;
+    display:flex; justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+    gap:25px;
+}

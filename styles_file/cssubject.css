@@ -1,0 +1,40 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main
+{
+    height:80vh;
+    width:80vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:25px;
+}
+.discription
+{
+    width:80vw;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.listofcontent ul
+{
+    width:80vw;
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:50px;
+
+}
+ul li{
+    list-style-type:none;
+}

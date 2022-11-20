@@ -1,0 +1,46 @@
+.main
+{
+    width:100vw;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.discription
+{width:100vw;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    margin-bottom:50px;
+    flex-direction:column;
+}
+.discription p
+{
+    
+    padding:25px;
+}
+.listofcommontopic ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:50px;
+    width:100vw;
+    height:50vh;
+}
+.listofcommontopic ul li
+{
+list-style-type:none;
+}
+ul li a{
+    text-decoration:none;
+    color:gray;
+}
+a :hover{
+cursor:pointer;
+transform:scale(1.025);
+}

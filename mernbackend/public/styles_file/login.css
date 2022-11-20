@@ -1,0 +1,45 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.box
+{
+    width:100vw;
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+    gap:25px;
+}
+.ielement
+{
+    width:200px;
+    padding:5px;
+    border-radius:25px;
+
+
+}
+.combine
+{
+    flex-direction:column;
+    gap:20px;
+}
+.forms{
+    width:60vw;
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    border:2px solid black;
+    border-radius:25px;
+    box-shadow:5px 7px rgb(155, 179, 150);
+}
+.submit:hover{
+    transform:scale(1.025);
+}
